@@ -1,28 +1,13 @@
 == README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+To contribute:
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
-
-
-Please feel free to use a different markup language if you do not plan to run
-<tt>rake doc:app</tt>.
+* Fork this repo => press the button at the top right
+* Clone the forked repo => '''git clone 'git@github.com:<your_handle>/sms.git''''
+* Add upstream remote => '''git remote add upstream git@github.com:ntrvic/sms.git'''
+* Checkout a new branch => '''git checkout -b new_branch upstream/development'''
+* Make a change
+* Add it to your staging area(. = all) => '''git add .'''
+* Commit your changes => '''git commit -m 'some message''''
+* Push them to your origin => '''git push origin new_branch'''
+* From git UI submit a pull request to upstream repo development branch
